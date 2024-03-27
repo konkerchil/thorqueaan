@@ -1,0 +1,51 @@
+
+  //let weightUp = p5.Vector.mult(gravityUp, walker2.mass);
+
+ // let minForce = createVector(1, 2);
+
+  //walker1.acc = p5.Vector.sub(magmin.pos, walker1.pos);
+
+ 
+  //setup negative magnetic forces
+    /*
+  magmin.magnetic(walker1);
+  walker1.vel.limit(20);
+  walker1.acc.setMag(0.2);
+  magmin.show();
+
+  //setup positive magnetic forces
+  magplus.magnetic(walker2);
+  walker2.vel.limit(20);
+  walker2.acc.setMag(0.2);
+  magplus.show();
+
+  */
+  
+  //walker1.remForce(0);
+  //walker1.walkerCheck();
+
+  //walker2.gravWalker(walker1.pos)
+  //walker2.applyForce(weightUp);
+  //walker2.applyForce(windL);
+  //walker2.update();
+  //walker2.show();
+  //walker2.walkerCheck();
+  //walker2.bounce();
+}
+
+    //let mouse = createVector(mouseX, mouseY);
+    //this.acc = p5.Vector.sub(mouse, this.pos);
+    //this.acc = p5.Vector.random2D();
+    //this.acc = createVector(this.pos.x + this.pos.y);
+    //this.acc.setMag(0.05);
+   // this.vel.limit(8);
+
+
+  //water for drag
+  fill(255, 125);
+  noStroke();
+  rect(0, height / 2, width, height / 2);
+  
+  if(walker.pos.y > height / 2){
+  walker.drag();
+  }
