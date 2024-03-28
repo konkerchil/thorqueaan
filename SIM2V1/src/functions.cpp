@@ -11,7 +11,7 @@ void naarNull(){
 }
 
 //een deel van de code komt overeen met draai();
-void radar(Stepper &stepperMotor, int steps){
+void radar(Stepper &stepperMotor, int steps, NewPing &radarServo){
 
 }
 
