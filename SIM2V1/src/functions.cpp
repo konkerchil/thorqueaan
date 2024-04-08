@@ -10,9 +10,15 @@ void naarNull(){
 
 }
 
+bool readRadar(NewPing &radarServo){
+
+}
+
 //een deel van de code komt overeen met draai();
 void radar(Stepper &stepperMotor, int steps, NewPing &radarServo){
-
+while(!readRadar(radarServo)){
+    draai(stepperMotor, steps);
+}
 }
 
 //positioneert de servo's in de arm zodat de grijper het object op kan pakken
