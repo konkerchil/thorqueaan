@@ -5,7 +5,7 @@
 #include <functions.h>
 
 //hardware declaratie     hier moet de pinout nog aan toegevoegd worden
-int baseServo;            //de onderste servo die vast zit aan de draaiplaat
+int baseServo;            //de onderste servo die vast zit aan de draaiplaat dfd
 int hingeServo;           //de tweede schanier in de arm
 int grijpServo;           //servo die in de grijper is gemonteerd en zorgt dat deze opent en sluit
 int radarSensor;          //ultrasonic sensor die vast zit aan de base en het object waarneemt
